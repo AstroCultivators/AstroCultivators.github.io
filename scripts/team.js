@@ -26,7 +26,7 @@ function getMembers(members) {
 
 $.getJSON(teamJSON, function(data) {
     getMembers(data);
-    console.log(teamMembers);
+    // console.log(teamMembers);
     teamMembers = teamMembers.join('')
     $('#team-container').html(teamMembers)
 })
