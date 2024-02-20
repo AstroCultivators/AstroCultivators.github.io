@@ -4,6 +4,7 @@
     align-items: center;
     height: 76vh;
     width: 100%;
+    padding: 5vh;
     background-color: #BFAFCF;
     background-image:
     radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
