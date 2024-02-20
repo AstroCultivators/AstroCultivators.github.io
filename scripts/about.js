@@ -7,9 +7,7 @@ const images = [
     `${galleryFolder}arcs_event.jpg`
 ];
 var count = 0;
-$('#gallery-image').attr('src', images[images.length]);
-setInterval(() => {
+/* setInterval(() => {
     $('#gallery-image').attr('src', images[count%images.length]);
     count++;
-}, 4000);
-    
+}, 4000);    */
