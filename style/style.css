@@ -36,6 +36,7 @@ html, body {
     align-items: center;
 }
 .nav-link {
+    font-size: larger;
     display: inline;
 }
 .nav-link:not(:first-child){
