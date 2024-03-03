@@ -29,6 +29,12 @@
     align-items: center;
     justify-self: center;
 }
+.member-bio {
+    display: none;
+}
+.member-container:hover .member-bio {
+    display: block;
+}
 .pfp {
     width: 100%;
     height: auto;

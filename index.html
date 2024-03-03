@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./style/home.css">
     <link rel="stylesheet" href="./style/team.css">
     <link rel="stylesheet" href="./style/about.css">
+    <link rel="stylesheet" href="./style/footer.css">
     <link rel="stylesheet" href="./style/style.css">
     <script src="https://kit.fontawesome.com/18f7e464f9.js" crossorigin="anonymous"></script>
     <title>AstroCultivators</title>
@@ -21,7 +22,6 @@
             <li class="nav-link"><a href="#home">Home</a></li>
             <li class="nav-link"><a href="#team">Our Team</a></li>
             <li class="nav-link"><a href="#about">About</a></li>
-            <li class="nav-link"><a href="#gallery">Gallery</a></li>
             <li class="nav-link"><a href="#contact">Contact</a></li>
             <li class="nav-link"><a href="https://github.com/AstroCultivators"><i class="fa-brands fa-github"></i></a></li>
         </ul>
@@ -49,7 +49,10 @@
             </div>
         </div>
         <div id="about">
-            <p>AstroCultivator is a project that aims to fully automate a container farming system located on campus at California State University Northridge</p>
+            <!-- gallery controls in about.js -->
+            <h2>The autonomous farming system could be used to grow self-pollinating crops that require no human intervention. 
+                This system can decrease crew time needed to operate plant growth systems in by providing autonomous monitoring, 
+                real-time data reporting, environment management, automatic harvesting, and cleaning.</h2>
             <div id="about-lists">
                 <img id="gallery-image" src="./assets/pictures/Gallery/arcs_event.jpg">
                 <ul>
@@ -64,19 +67,30 @@
                     <li>YOLO v7</li>
                     <li>Robotic Operating Systems</li>
                     <li>GPIO, I<sup>2</sup>C</li>
-                    <li>Javascript, Chart.js</li>
-                    <li>Python Flask</li>
+                    <li>Javascript, Chart.js, Bootstrap 5</li>
+                    <li>Python Flask, Microsoft Apache</li>
                     <li>mySQL</li>
                 </ul>
             </div>
-        </div>
-        <div id="gallery">
-
         </div>
         <div id="contact">
 
         </div>
     </main>
+    <footer>
+        <div class="container">
+            <div class="csun-stuff">
+                <a href=""><img src="./assets/logos/CSUN-and-emblem.png" alt="CSUN Logo and Emblem"></a>
+                <p>© Copyright California State University, Northridge.</p>
+            </div>
+            <div class="logo-div">
+                <a href="https://twitter.com/csunorthridge"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.facebook.com/calstatenorthridge/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/csun_edu/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/school/california-state-university-northridge/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
     <script src="scripts/team.js"></script>
     <script src="scripts/about.js"></script>
     <script src="scripts/index.js"></script>

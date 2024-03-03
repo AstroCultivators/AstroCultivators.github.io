@@ -1,24 +1,24 @@
 [
   {
-    "name"  :   "Codi Yost",
-    "role"  : "Website, Embedded Applications, Database",
-    "bio"   :   "Crime fighter turned villain Codi Yost spends his days spell checking his poorly written threats to political figures and his nights exacting revenge on the citizens of Hoboken New Jersey.",
+    "name"      :   "Codi Yost",
+    "role"      :   "Website, Embedded Applications and IoT, Database",
+    "bio"       :   "Codi Yost is a Full Stack Web Developer and tech enthusiast focused on integrated applications. In his spare time he stares at goats to train his mental telepathy",
     "linkedin"  :   "https://www.linkedin.com/in/codi-yost/",
     "github"    :   "https://github.com/coding-yost",
     "pfp"       :   "Codi_Yost.jpg"
   },
   {
-    "name": "Neville Elieh",
-    "role"  : "Team Lead, AI, Object Detection",
-    "bio": "I am a Senior Undergraduate Computer Science student fascinated with innovative technologies surrounding outer space. With infinite discoveries found in outer space and limitless potential within computer science, for me, there is no better combination.",
-    "linkedin": "https://www.linkedin.com/in/neville-elieh-940440218/",
-    "github": "https://github.com/nevilleelieh",
-    "pfp": "Neville_Elieh.png"
+    "name"      :   "Neville Elieh",
+    "role"      :   "Team Lead, AI, Object Detection",
+    "bio"       :   "I am a Senior Undergraduate Computer Science student fascinated with innovative technologies surrounding outer space. With infinite discoveries found in outer space and limitless potential within computer science, for me, there is no better combination.",
+    "linkedin"  :   "https://www.linkedin.com/in/neville-elieh-940440218/",
+    "github"    :   "https://github.com/nevilleelieh",
+    "pfp"       :   "Neville_Elieh.png"
   },
   {
-    "name"  :   "Sandra Davis",
-    "role"  : "Server Development, Machine Vision, AI",
-    "bio"   :   "Sandra is an undergraduate Computer Science student.",
+    "name"      :   "Sandra Davis",
+    "role"      :   "Server Development, Machine Vision, AI",
+    "bio"       :   "Sandra is an undergraduate Computer Science student.",
     "linkedin"  :   "https://www.linkedin.com/in/sandra-lynn-davis/",
     "github"    :   "https://github.com/SandraLDavis",
     "pfp"       :   "SandraDavis.jpg"

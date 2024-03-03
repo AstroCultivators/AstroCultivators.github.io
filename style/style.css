@@ -43,9 +43,3 @@ html, body {
     margin-block-end: 0.25em;
     margin-inline-start: 1em;
 }
-.member-bio {
-    display: none;
-}
-.member-container:hover .member-bio {
-    display: block;
-}

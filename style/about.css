@@ -6,6 +6,9 @@
     align-items: center;
     background-color: #A38DC9;
 }
+#about h2 {
+    max-width: 75%;
+}
 #about-lists {
     display: flex;
     align-items: center;
