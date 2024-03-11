@@ -1,0 +1,26 @@
+[
+  {
+    "name"      :   "Codi Yost",
+    "role"      :   "Website, Database, Sensors, and IoT",
+    "bio"       :   "Codi Yost is a Full Stack Web Developer and tech enthusiast with a focus on integrated applications and web applications. Codi has a love for communication and community and believes technology can be used to better life",
+    "linkedin"  :   "https://www.linkedin.com/in/codi-yost/",
+    "github"    :   "https://github.com/coding-yost",
+    "pfp"       :   "Codi_Yost.jpg"
+  },
+  {
+    "name"      :   "Neville Elieh",
+    "role"      :   "Team Lead, AI, Object Detection, Outreach",
+    "bio"       :   "Neville is a Senior Undergraduate Computer Science student fascinated with innovative technologies surrounding outer space. With infinite discoveries found in outer space and limitless potential within computer science, for Neville, there is no better combination.",
+    "linkedin"  :   "https://www.linkedin.com/in/neville-elieh-940440218/",
+    "github"    :   "https://github.com/nevilleelieh",
+    "pfp"       :   "Neville_Elieh.png"
+  },
+  {
+    "name"      :   "Sandra Davis",
+    "role"      :   "Server Development, Machine Vision, AI",
+    "bio"       :   "Sandra is an undergraduate Computer Science student. Her focus of study in Network Communications, Artificial Intelligence, and Machine Learning guide her projects into the modern era.",
+    "linkedin"  :   "https://www.linkedin.com/in/sandra-lynn-davis/",
+    "github"    :   "https://github.com/SandraLDavis",
+    "pfp"       :   "SandraDavis.jpg"
+  }
+]
