@@ -1,0 +1,39 @@
+
+#home-container {
+    background-image: url("assets/pictures/grow-bed.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+#team{
+    background-color: #BFAFCF;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+.spaced-text {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+    letter-spacing: 0.5em;
+}
+p.spaced-text {
+    font-size: medium !important;
+}
+h1.spaced-text{
+    font-size: xx-large;
+    font-weight: 900;
+}
+i {
+    color: white;
+}
+
+/* @media screen and (width: 768px) {
+    #hero-banner {
+        justify-content: space-around !important;
+    }
+} */
