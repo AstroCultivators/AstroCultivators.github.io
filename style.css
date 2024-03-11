@@ -1,6 +1,11 @@
 
 #home-container {
-    background-image: url("assets/pictures/grow-bed.jpeg");
+    background-image:  
+          linear-gradient(
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.25)
+          ),
+        url("assets/pictures/grow-bed.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -18,14 +23,10 @@
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: xx-large;
     letter-spacing: 0.5em;
 }
-p.spaced-text {
-    font-size: medium !important;
-}
+
 h1.spaced-text{
-    font-size: xx-large;
     font-weight: 900;
 }
 i {
