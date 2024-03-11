@@ -33,8 +33,11 @@ i {
     color: white;
 }
 
-/* @media screen and (width: 768px) {
+@media (width <= 780px) {
     #hero-banner {
-        justify-content: space-around !important;
+        justify-content: space-around;
     }
-} */
+    #banner-title {
+        visibility: hidden;
+    }
+  }
