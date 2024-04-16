@@ -6,9 +6,9 @@ function createMember(member) {
         `
         <div class="col-lg border rounded shadow">
             <div class="container text-center">
+                <h6 class="pt-2">${member.role}</h6>
                 <img src="assets/team/${member.pfp}" alt="" class="img img-fluid my-3">
                 <h4>${member.name}</h4>
-                <h6>${member.role}</h6>
                 <div class="team-links">
                     <a href=${member.github}><i class="bi bi-github fs-5"></i></a>
                     <a href="${member.linkedin}"><i class="bi bi-linkedin fs-5"></i></a>
