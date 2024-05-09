@@ -28,6 +28,9 @@
                 <a class="nav-link text-uppercase" href="#about">About</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link text-uppercase" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link text-uppercase" href="#team">Team</a>
               </li>
               <li class="nav-item">
@@ -87,9 +90,8 @@
             </ul></div>
         </div>
     </div>
-    <div class="album py-5 bg-light">
+    <div class="album py-5 bg-light" id="gallery">
         <div class="container">
-
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
@@ -125,12 +127,30 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="/assets/pictures/Gallery/Logic_chart.png" data-holder-rendered="true" style="width: auto; display: block;">
+                        <img onclick="swapImage()" class="card-img-top" id="logic-chart" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="/assets/pictures/Gallery/Logic_chart.png" data-holder-rendered="true" style="width: auto; display: block;">
+                        <img onclick="swapImage()" class="card-img-top" id="hardware-chart" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="/assets/pictures/Gallery/Hardware_chart.png" data-holder-rendered="true" style="width: auto; display: none;">
                         <div class="card-body">
-                            <p class="card-text">The Astrocultivator project has a large list of hardware, software and other technologies to keep track of. The systems' logic is complex and the amount of moving parts within the systems requires a lot of care and collaboration to get right.</p>
+                            <p class="card-text">The Astrocultivator project is an interdisplanry product consisting of multiple teams working together at the CSUN Automated Reasearch Center offices. AstroCultivators has a large list of hardware, software and other technologies to keep track of. The systems' logic is complex and the amount of moving parts within the systems requires a lot of care and collaboration to get right.</p>
                             <div class="d-flex justify-content-between align-items-center">
                             </div>
                         </div>
+                        <script>
+                            const logicChart = document.getElementById("logic-chart");
+                            const hardwareChart = document.getElementById("hardware-chart");
+
+                            function swapImage() {
+                                displayCheck(logicChart);
+                                displayCheck(hardwareChart);
+                            }
+
+                            function displayCheck(element) {
+                                if(element.style.display == 'none') {
+                                    element.style.display = 'block';
+                                } else {
+                                    element.style.display = 'none';
+                                }
+                            }
+                        </script>
                     </div>
                 </div>
             </div>
@@ -139,7 +159,7 @@
                     <div class="card mb-4 box-shadow align-items-center">
                         <img class="img-fluid" width="50%" height="50%" src="assets/pictures/Gallery/rgb_20240506172803.png">
                         <div class="card-body">
-                          <p class="card-text">This is the AstroCultivator team's first time meeting in person to tour the container farm located on the California State University Northridge campus, the future home of the Astrocultivator project.</p>
+                          <p class="card-text">The AstroCultivator project uses a Realsense D455 3d Camera to produce RGB and Depth images! These images are processed onboard the Realsense Camera and sent to the Jetson Orin for further proceessing.</p>
                             <div class="d-flex justify-content-between align-items-center">       
                             </div>
                         </div>
@@ -149,7 +169,7 @@
                     <div class="card mb-4 box-shadow align-items-center">
                         <img class="img-fluid" width="50%" height="50%" src="assets/pictures/Gallery/obj_20240506172803.png">
                         <div class="card-body">
-                          <p class="card-text">This is the AstroCultivator team's first time meeting in person to tour the container farm located on the California State University Northridge campus, the future home of the Astrocultivator project.</p>
+                          <p class="card-text">The Jetson Orin utilizes the camera's output for Object detection, and depth images used to direct the robotic arm for harvesting. The object detection model is able to detect specific species of tomato and lettuce at the moment.</p>
                             <div class="d-flex justify-content-between align-items-center">       
                             </div>
                         </div>
@@ -159,7 +179,7 @@
                     <div class="card mb-4 box-shadow align-items-center">
                         <img class="img-fluid" width="50%" height="50%" src="assets/pictures/Gallery/csr.png">
                         <div class="card-body">
-                          <p class="card-text">This is the AstroCultivator team's first time meeting in person to tour the container farm located on the California State University Northridge campus, the future home of the Astrocultivator project.</p>
+                          <p class="card-text">Hyperspectral imaging is provided by the Cubert Ultris 3. Hyperspectral imaging enables diagnostic analysis on the growth of the crop.</p>
                             <div class="d-flex justify-content-between align-items-center">       
                             </div>
                         </div>
